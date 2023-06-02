@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cricket Live Scores</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f1f1f1;
+        }
+        
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            font-size: 20px;
+        }
+        
+        .nav-bar {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        .nav-item {
+            display: inline-block;
+            margin: 0 10px;
+        }
+        
+        .live-score {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        
+        .team {
+            flex-basis: 50%;
+            text-align: center;
+        }
+        
+        .team-name {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        
+        .score {
+            font-size: 48px;
+            font-weight: bold;
+            color: #f00;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Cricket Live Scores</h1>
+    </div>
+    
+    <div class="nav-bar">
+        <a href="#" class="nav-item">Home</a>
+        <a href="#" class="nav-item">Series</a>
+        <a href="#" class="nav-item">Fixtures</a>
+        <a href="#" class="nav-item">Ranking</a>
+    </div>
+    
+    <div class="live-score">
+        <div class="team">
+            <div class="team-name" style="color: #00f;">Team A</div>
+            <div class="score">120/3</div>
+        </div>
+        
+        <div class="team">
+            <div class="team-name" style="color: #0f0;">Team B</div>
+            <div class="score">85/2</div>
+        </div>
+    </div>
+</body>
+</html>
